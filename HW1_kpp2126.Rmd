@@ -44,22 +44,17 @@ as.numeric(pull(prob1_df, samp_gt_0)) * pull(prob1_df, samp)
 ```
 
 ## Problem 2
-```{r}
-install.packages("palmerpenguins")
-```
 
 ```{r}
 data("penguins", package = "palmerpenguins")
 ```
 
-The penguins data set
+The penguins data set number of columns and rows.
 
 ```{r}
 ncol(penguins)
 nrow(penguins)
 ```
-Species <fctr>
-Island <fctr>
 
 Mean of Flipper Length
 ```{r}
